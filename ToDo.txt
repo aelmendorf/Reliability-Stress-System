@@ -1,0 +1,31 @@
+
+Notes:
+QbasicTimers in custom class tWrap work now, issue was the ID
+in tWrap was being overwritten by me of course.  Way to much
+time spent on that, need to work on this at home without
+distractions
+
+****need to write bash script for installing this software
+and all needed libs.compiliers/etc
+
+
+ToDo:
+ Combine with old version.  with each tWrap having it's own
+ timer issue of overflow is solved
+
+tWrap;
+ 1:convert time, do not hold value in msec, keep it in mins and
+    hours
+ 2:  overload << operators with line out put for files and tables
+
+Controller:
+1: add New,Continue functionality.  Write a function to
+    read in from ini file wiht list of all running test
+2: make pop windows which dsplay list and return to main window
+    with user selection
+3: add serial library you wrote from last version
+4: add exceptions
+5: more when i think of it
+
+
+**HAVE THIS DONE OR AT LEAST FUNCTIONAL BY MONDAY**
